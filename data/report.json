@@ -1,0 +1,400 @@
+{
+ "total": 43,
+ "agree": 43,
+ "rate": 1.0,
+ "rows": [
+  {
+   "src": "V2:901",
+   "a": "Synthetic Data Governance",
+   "b": "Synthetic Data Generation",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:902",
+   "a": "AI-Generated Code Provenance",
+   "b": "Digital Provenance",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:902",
+   "a": "AI-Generated Code Provenance",
+   "b": "AI Software Engineering",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:906",
+   "a": "AI Weather Forecasting",
+   "b": "Environmental Forecasting",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:907",
+   "a": "Digital Product Passport Interoperability",
+   "b": "Digital Product Passports",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:907",
+   "a": "Digital Product Passport Interoperability",
+   "b": "Supply Chain Digital Product Passports",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:908",
+   "a": "Planetary Boundary Accounting",
+   "b": "Nature-Based Solutions",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:909",
+   "a": "Scope 4 Emissions Accounting",
+   "b": "ESG Integration",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:909",
+   "a": "Scope 4 Emissions Accounting",
+   "b": "Life Cycle Assessment",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:910",
+   "a": "Regenerative Finance (ReFi)",
+   "b": "Regenerative Economy",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:910",
+   "a": "Regenerative Finance (ReFi)",
+   "b": "DeFi",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:912",
+   "a": "Verifiable Credentials",
+   "b": "Self-Sovereign Identity",
+   "verdict": "INSTANCE",
+   "expected": "INSTANCE",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:912",
+   "a": "Verifiable Credentials",
+   "b": "Passkeys",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:913",
+   "a": "Confidential AI Inference",
+   "b": "Confidential Computing",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:914",
+   "a": "Federated Analytics",
+   "b": "Federated Learning",
+   "verdict": "MEMBER-OF",
+   "expected": "MEMBER-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:914",
+   "a": "Federated Analytics",
+   "b": "Federated Learning Infrastructure",
+   "verdict": "MEMBER-OF",
+   "expected": "MEMBER-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:916",
+   "a": "Digital Twin Interoperability",
+   "b": "Digital Twins",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:916",
+   "a": "Digital Twin Interoperability",
+   "b": "Digital Twin of Production",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:916",
+   "a": "Digital Twin Interoperability",
+   "b": "Urban Digital Twins",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:916",
+   "a": "Digital Twin Interoperability",
+   "b": "Cognitive Digital Twins",
+   "verdict": "PART-OF",
+   "expected": "PART-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:918",
+   "a": "Runtime Verification",
+   "b": "Runtime Verification",
+   "verdict": "SAME",
+   "expected": "SAME",
+   "agree": true,
+   "flags": [
+    "расхождение кода типа — пометка аудиту"
+   ]
+  },
+  {
+   "src": "V2:919",
+   "a": "Explainable AI (XAI) Standards",
+   "b": "Explainable AI",
+   "verdict": "METHOD-OF",
+   "expected": "METHOD-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:920",
+   "a": "AI Incident Reporting Systems",
+   "b": "Incident Response Automation",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:921",
+   "a": "Data Cooperative",
+   "b": "Platform Cooperativism",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:922",
+   "a": "Data Trust",
+   "b": "Data Cooperative",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:935",
+   "a": "Mechanistic Interpretability",
+   "b": "Mechanistic Interpretability",
+   "verdict": "SAME",
+   "expected": "SAME",
+   "agree": true,
+   "flags": [
+    "расхождение кода типа — пометка аудиту"
+   ]
+  },
+  {
+   "src": "V2:941",
+   "a": "MLOps",
+   "b": "MLOps",
+   "verdict": "SAME",
+   "expected": "SAME",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:942",
+   "a": "LLMOps",
+   "b": "LLMOps",
+   "verdict": "SAME",
+   "expected": "SAME",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:943",
+   "a": "Prompt Engineering Standards",
+   "b": "Prompt Engineering",
+   "verdict": "METHOD-OF",
+   "expected": "METHOD-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:948",
+   "a": "Synthetic Media Provenance",
+   "b": "Synthetic Media Detection",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:950",
+   "a": "Foundation Model Evaluation Consortia",
+   "b": "Model Evaluation Frameworks",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:966",
+   "a": "Data Reliability Engineering",
+   "b": "Site Reliability Engineering",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:969",
+   "a": "Federated Data Governance",
+   "b": "Federated Governance",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "V2:988",
+   "a": "Continuous AI Assurance",
+   "b": "AI Workforce Transition Programs",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "Реестр:44",
+   "a": "Vector Databases",
+   "b": "Semantic Search",
+   "verdict": "TOOL-OF",
+   "expected": "TOOL-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "Реестр:46",
+   "a": "GraphRAG",
+   "b": "Retrieval-Augmented Generation",
+   "verdict": "IS-A",
+   "expected": "IS-A",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "Реестр:28",
+   "a": "Software Supply Chain Security",
+   "b": "Software Bill of Materials",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "Реестр:36",
+   "a": "Event-Driven Architecture",
+   "b": "CQRS",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "Реестр:13",
+   "a": "AI for Scientific Discovery",
+   "b": "Self-Driving Laboratories",
+   "verdict": "COMPLEMENTARY",
+   "expected": "COMPLEMENTARY",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "ров: код типа различается, роль одна",
+   "a": "MLOps",
+   "b": "MLOps",
+   "verdict": "SAME",
+   "expected": "SAME",
+   "agree": true,
+   "flags": [
+    "расхождение кода типа — пометка аудиту"
+   ]
+  },
+  {
+   "src": "ров: категория×метод",
+   "a": "Governance",
+   "b": "Federated Governance",
+   "verdict": "RELATED",
+   "expected": "RELATED",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "ров: свойство×инструмент",
+   "a": "Vector Databases",
+   "b": "Semantic Search",
+   "verdict": "TOOL-OF",
+   "expected": "TOOL-OF",
+   "agree": true,
+   "flags": []
+  },
+  {
+   "src": "ров: экземпляр×класс",
+   "a": "W3C Verifiable Credentials",
+   "b": "Self-Sovereign Identity",
+   "verdict": "INSTANCE",
+   "expected": "INSTANCE",
+   "agree": true,
+   "flags": []
+  }
+ ]
+}

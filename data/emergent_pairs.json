@@ -1,0 +1,107 @@
+[
+ {
+  "a": {
+   "id": "1146",
+   "name": "Agent Observability & Tracing",
+   "type_code": "TECH",
+   "link_note": "IS-A: №070 — дисциплина SRE, перенесённая на агентные системы; COMPLEMENTARY: №988 (кандидат) — ассуранс до деплоя + наблюдаемость в рантайме"
+  },
+  "b": {
+   "id": "70",
+   "name": "Site Reliability Engineering",
+   "type_code": "ORG"
+  },
+  "expected": "IS-A",
+  "src": "Эмерджентный 1146"
+ },
+ {
+  "a": {
+   "id": "1146",
+   "name": "Agent Observability & Tracing",
+   "type_code": "TECH",
+   "link_note": "IS-A: №070 — дисциплина SRE, перенесённая на агентные системы; COMPLEMENTARY: №988 (кандидат) — ассуранс до деплоя + наблюдаемость в рантайме"
+  },
+  "b": {
+   "id": "988",
+   "name": "Continuous AI Assurance",
+   "type_code": "P"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Эмерджентный 1146"
+ },
+ {
+  "a": {
+   "id": "1147",
+   "name": "AI Governance Platforms",
+   "type_code": "TECH",
+   "link_note": "TOOL-OF: №1014 — платформа-инструмент для практики ИИ-управления; по канону инструмент ≠ метод, не сливать"
+  },
+  "b": {
+   "id": "1014",
+   "name": "AI Governance",
+   "type_code": "ORG"
+  },
+  "expected": "TOOL-OF",
+  "src": "Эмерджентный 1147"
+ },
+ {
+  "a": {
+   "id": "1148",
+   "name": "Disinformation Security",
+   "type_code": "P",
+   "link_note": "COMPLEMENTARY: №1041 — детекция синтетики (техника) + защита от дезинформации (операционная дисциплина) усиливают друг друга"
+  },
+  "b": {
+   "id": "1041",
+   "name": "Synthetic Media Detection",
+   "type_code": "P"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Эмерджентный 1148"
+ },
+ {
+  "a": {
+   "id": "1149",
+   "name": "AI-Ready Data Governance",
+   "type_code": "M",
+   "link_note": "RELATED: №43 — семантический слой знаний; самостоятельная дисциплина подготовки данных для агентов"
+  },
+  "b": {
+   "id": "43",
+   "name": "Knowledge Graphs",
+   "type_code": "TECH"
+  },
+  "expected": "RELATED",
+  "src": "Эмерджентный 1149"
+ },
+ {
+  "a": {
+   "id": "1150",
+   "name": "Agentic Workforce Upskilling",
+   "type_code": "ORG",
+   "link_note": "RELATED: №1014 — орг-модель развития персонала под агентную рабочую силу; практику workforce-перехода в каталоге нет"
+  },
+  "b": {
+   "id": "1014",
+   "name": "AI Governance",
+   "type_code": "ORG"
+  },
+  "expected": "RELATED",
+  "src": "Эмерджентный 1150"
+ },
+ {
+  "a": {
+   "id": "1151",
+   "name": "Agentic AI Red Teaming",
+   "type_code": "P",
+   "link_note": "IS-A: №1015 — разновидность ИИ-красной команды: многоходовые, тул-юз и identity-атаки агентов"
+  },
+  "b": {
+   "id": "1015",
+   "name": "AI Red Teaming",
+   "type_code": "P"
+  },
+  "expected": "IS-A",
+  "src": "Эмерджентный 1151"
+ }
+]

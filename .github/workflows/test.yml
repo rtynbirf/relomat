@@ -1,0 +1,12 @@
+name: relomat-tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Канон как автомат — тесты
+        run: |
+          python -m unittest test_relomat -v
+          python relomat.py data/pairs.json
+          python emergent.py
