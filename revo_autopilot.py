@@ -10,7 +10,7 @@
 import hashlib, json, os, re, subprocess
 
 try:
-    CFG = json.loads(r'''{"name": "relomat", "num": 166, "school": "НОВОСТРОЙ РОЯ", "desc": "РЕЛОМАТ — канон типизированных отношений как конечный детерминированный автомат: SAME, IS-A, PART-OF, TOOL-OF, METHOD-OF, RELATED, COMPLEMENTARY, MEMBER-OF, INSTANCE, FRAMEWORK · stdlib · unittest 11/11", "topics": [], "releases": 0, "palette": {"bg": "#171512", "bg2": "#232017", "ink": "#F2E9D4", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#A99E82", "accent": "#B03A2A"}}''')
+    CFG = json.loads(r'''{"name": "relomat", "num": 69, "school": "НОВОСТРОЙ РОЯ", "desc": "РЕЛОМАТ — канон типизированных отношений как конечный детерминированный автомат: SAME, IS-A, PART-OF, TOOL-OF, METHOD-OF, RELATED, COMPLEMENTARY, MEMBER-OF, INSTANCE, FRAMEWORK · stdlib · unittest 11/11", "topics": [], "releases": 0, "palette": {"bg": "#171512", "bg2": "#232017", "ink": "#F2E9D4", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#A99E82", "accent": "#B03A2A"}}''')
 except Exception:
     CFG = {"name": "REVO", "num": 0, "school": "", "desc": "", "topics": [], "releases": 0,
            "palette": dict(bg="#EFE6CF", bg2="#F6EFDC", ink="#241C10", gold="#9A7B23",
