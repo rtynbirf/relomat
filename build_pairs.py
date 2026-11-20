@@ -3,12 +3,21 @@
 """Сборка пар для РЕЛОМАТА из реальных данных проекта:
    мастер-каталог (kind по коду типа), кандидаты V2 (link_note из файла пользователя),
    пары из Реестра вердиктов 001–200, плюс категориальные ловушки (канон)."""
-import json, re, sys
+import json, os, re, sys
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-master = {r["num"]: r for r in json.load(open(f"{BASE}/scripts/master.json"))["records"]}
-v2 = json.load(open(f"{BASE}/scripts/v2.json"))
-cands = {p["v2_ref"] and int(p["v2_ref"][3:]): p for p in json.load(open(f"{BASE}/scripts/passports.json"))["passports"] if p["v2_ref"] != "—"}
+
+
+def find(name):
+    """источник данных: сначала data/ репо, затем dev-воркспейс"""
+    for p in (os.path.join(BASE, "data", name), os.path.join(BASE, "..", name),
+              os.path.join(BASE, "..", "..", "scripts", name)):
+        if os.path.exists(p):
+            return p
+    raise FileNotFoundError(name)
+master = {r["num"]: r for r in json.load(open(find("master.json")))["records"]}
+v2 = json.load(open(find("v2.json")))
+cands = {p["v2_ref"] and int(p["v2_ref"][3:]): p for p in json.load(open(find("passports.json")))["passports"] if p["v2_ref"] != "—"}
 v2_new = {}
 for vn in range(901, 1001):
     raw = v2.get("new_901_1000") or {}
@@ -107,6 +116,6 @@ def build_adversarial():
 
 if __name__ == "__main__":
     pairs = build_v12_pairs() + build_registry_pairs() + build_adversarial()
-    json.dump(pairs, open(f"{BASE}/scripts/relomat/pairs.json", "w", encoding="utf-8"),
+    json.dump(pairs, open(f"{BASE}/pairs.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(f"пар: {len(pairs)} (v1.2: {len(build_v12_pairs())}, реестр: {len(build_registry_pairs())}, ловушки: {len(build_adversarial())})")

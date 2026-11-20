@@ -9,4 +9,5 @@ jobs:
         run: |
           python -m unittest test_relomat -v
           python relomat.py data/pairs.json
+          python build_pairs.py
           python emergent.py

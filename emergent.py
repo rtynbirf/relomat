@@ -45,7 +45,7 @@ if __name__ == "__main__":
             a = {"id": e["id"], "name": e["name"], "type_code": e["type_code"], "link_note": e["line"]}
             b = {"id": str(t.get("num", t.get("id"))), "name": t["name"], "type_code": t["type_code"]}
             pairs.append({"a": a, "b": b, "expected": t["expected"], "src": f"Эмерджентный {e['id']}"})
-    json.dump(pairs, open(f"{BASE}/scripts/relomat/emergent_pairs.json", "w", encoding="utf-8"),
+    json.dump(pairs, open(f"{BASE}/emergent_pairs.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     rep = Relomat()
     agree = 0
@@ -59,5 +59,5 @@ if __name__ == "__main__":
         print(f"  [{'OK' if r['ok'] else 'РАСХ'}] {r['src']:22} × {r['b'][:30]:30} → {r['v']:13} (ожидалось {r['exp']})")
     print(f"РЕЛОМАТ на эмерджентных: {agree}/{len(rows)}")
     json.dump({"candidates": EMERGENT, "verification": rows, "agree": agree, "total": len(rows)},
-              open(f"{BASE}/scripts/relomat/emergent_report.json", "w", encoding="utf-8"),
+              open(f"{BASE}/emergent_report.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
