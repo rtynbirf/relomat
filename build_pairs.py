@@ -5,7 +5,7 @@
    пары из Реестра вердиктов 001–200, плюс категориальные ловушки (канон)."""
 import json, re, sys
 
-BASE = "/home/z/my-project"
+BASE = os.path.dirname(os.path.abspath(__file__))
 master = {r["num"]: r for r in json.load(open(f"{BASE}/scripts/master.json"))["records"]}
 v2 = json.load(open(f"{BASE}/scripts/v2.json"))
 cands = {p["v2_ref"] and int(p["v2_ref"][3:]): p for p in json.load(open(f"{BASE}/scripts/passports.json"))["passports"] if p["v2_ref"] != "—"}

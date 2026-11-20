@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 """Эмерджентные кандидаты 1146–1151: тренды 2026 × разрывы каталога.
 Каждый получает строку-отношение; РЕЛОМАТ верифицирует её механически."""
-import json, sys
+import json
+import os
+import sys
 
-BASE = "/home/z/my-project"
+BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, f"{BASE}/scripts/relomat")
 from relomat import Relomat
 
