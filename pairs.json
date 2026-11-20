@@ -1,0 +1,731 @@
+[
+ {
+  "a": {
+   "id": "901",
+   "name": "Synthetic Data Governance",
+   "type_code": "PR",
+   "link_note": "COMPLEMENTARY: №885 (порождение синтетики ↔ управление ею)",
+   "essence": "управление качеством, приватностью и валидацией синтетических данных как отдельный контур"
+  },
+  "b": {
+   "id": "885",
+   "name": "Synthetic Data Generation",
+   "type_code": "TECH",
+   "essence": "создание искусственных данных для обучения, тестирования и анализа"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "V2:901"
+ },
+ {
+  "a": {
+   "id": "902",
+   "name": "AI-Generated Code Provenance",
+   "type_code": "P",
+   "link_note": "IS-A: №030 (провенанс ИИ-кода); RELATED: №014",
+   "essence": "отслеживание происхождения кода, сгенерированного ИИ, для аудита и лицензирования"
+  },
+  "b": {
+   "id": "30",
+   "name": "Digital Provenance",
+   "type_code": "PR",
+   "essence": "проверяемая история происхождения и изменений цифровых объектов"
+  },
+  "expected": "IS-A",
+  "src": "V2:902"
+ },
+ {
+  "a": {
+   "id": "902",
+   "name": "AI-Generated Code Provenance",
+   "type_code": "P",
+   "link_note": "IS-A: №030 (провенанс ИИ-кода); RELATED: №014",
+   "essence": "отслеживание происхождения кода, сгенерированного ИИ, для аудита и лицензирования"
+  },
+  "b": {
+   "id": "14",
+   "name": "AI Software Engineering",
+   "type_code": "P",
+   "essence": "автоматизация анализа, написания, тестирования и сопровождения кода"
+  },
+  "expected": "RELATED",
+  "src": "V2:902"
+ },
+ {
+  "a": {
+   "id": "906",
+   "name": "AI Weather Forecasting",
+   "type_code": "TECH",
+   "link_note": "IS-A: №577 (ML-разновидность прогнозирования среды)",
+   "essence": "модели прогнозирования погоды на основе ML, конкурирующие с численными моделями"
+  },
+  "b": {
+   "id": "577",
+   "name": "Environmental Forecasting",
+   "type_code": "M",
+   "essence": "прогнозирование изменений окружающей среды"
+  },
+  "expected": "IS-A",
+  "src": "V2:906"
+ },
+ {
+  "a": {
+   "id": "907",
+   "name": "Digital Product Passport Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №095, №555 (стандарты совместимости внутри системы паспортов продукции)",
+   "essence": "обеспечение совместимости паспортов продукции между отраслями и юрисдикциями"
+  },
+  "b": {
+   "id": "95",
+   "name": "Digital Product Passports",
+   "type_code": "ST",
+   "essence": "цифровые паспорта происхождения, состава и жизненного цикла изделий"
+  },
+  "expected": "PART-OF",
+  "src": "V2:907"
+ },
+ {
+  "a": {
+   "id": "907",
+   "name": "Digital Product Passport Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №095, №555 (стандарты совместимости внутри системы паспортов продукции)",
+   "essence": "обеспечение совместимости паспортов продукции между отраслями и юрисдикциями"
+  },
+  "b": {
+   "id": "555",
+   "name": "Supply Chain Digital Product Passports",
+   "type_code": "ST",
+   "essence": "прослеживаемость характеристик и происхождения товаров через цифровые паспорта"
+  },
+  "expected": "PART-OF",
+  "src": "V2:907"
+ },
+ {
+  "a": {
+   "id": "908",
+   "name": "Planetary Boundary Accounting",
+   "type_code": "M",
+   "link_note": "RELATED: №401 (учёт планетарных границ — самостоятельная дисциплина)",
+   "essence": "количественный учёт воздействия на девять планетарных границ"
+  },
+  "b": {
+   "id": "401",
+   "name": "Nature-Based Solutions",
+   "type_code": "T",
+   "essence": "использование природных процессов для решения экологических, климатических и инфраструктурных задач"
+  },
+  "expected": "RELATED",
+  "src": "V2:908"
+ },
+ {
+  "a": {
+   "id": "909",
+   "name": "Scope 4 Emissions Accounting",
+   "type_code": "M",
+   "link_note": "RELATED: №281, №285 (расширяет углеродный учёт предотвращёнными выбросами)",
+   "essence": "учёт предотвращённых выбросов благодаря продуктам и услугам"
+  },
+  "b": {
+   "id": "281",
+   "name": "ESG Integration",
+   "type_code": "PR",
+   "essence": "включение экологических, социальных и управленческих факторов в оценку деятельности"
+  },
+  "expected": "RELATED",
+  "src": "V2:909"
+ },
+ {
+  "a": {
+   "id": "909",
+   "name": "Scope 4 Emissions Accounting",
+   "type_code": "M",
+   "link_note": "RELATED: №281, №285 (расширяет углеродный учёт предотвращёнными выбросами)",
+   "essence": "учёт предотвращённых выбросов благодаря продуктам и услугам"
+  },
+  "b": {
+   "id": "285",
+   "name": "Life Cycle Assessment",
+   "type_code": "M",
+   "essence": "оценка экологического воздействия на всех этапах жизненного цикла"
+  },
+  "expected": "RELATED",
+  "src": "V2:909"
+ },
+ {
+  "a": {
+   "id": "910",
+   "name": "Regenerative Finance (ReFi)",
+   "type_code": "EXP",
+   "link_note": "RELATED: №202, №217 (финансовый механизм регенеративной экономики)",
+   "essence": "финансовые механизмы, направленные на восстановление экосистем"
+  },
+  "b": {
+   "id": "202",
+   "name": "Regenerative Economy",
+   "type_code": "T",
+   "essence": "экономическая деятельность, восстанавливающая природные и социальные системы"
+  },
+  "expected": "RELATED",
+  "src": "V2:910"
+ },
+ {
+  "a": {
+   "id": "910",
+   "name": "Regenerative Finance (ReFi)",
+   "type_code": "EXP",
+   "link_note": "RELATED: №202, №217 (финансовый механизм регенеративной экономики)",
+   "essence": "финансовые механизмы, направленные на восстановление экосистем"
+  },
+  "b": {
+   "id": "217",
+   "name": "DeFi",
+   "type_code": "EXP",
+   "essence": "финансовые операции через программируемые протоколы без традиционного посредника"
+  },
+  "expected": "RELATED",
+  "src": "V2:910"
+ },
+ {
+  "a": {
+   "id": "912",
+   "name": "Verifiable Credentials",
+   "type_code": "ST",
+   "link_note": "INSTANCE: №057 (W3C-стандарт, воплощающий принцип SSI); RELATED: №058",
+   "essence": "стандарт цифровых удостоверений с криптографической проверкой"
+  },
+  "b": {
+   "id": "57",
+   "name": "Self-Sovereign Identity",
+   "type_code": "PR",
+   "essence": "самостоятельное управление идентификаторами и удостоверениями"
+  },
+  "expected": "INSTANCE",
+  "src": "V2:912"
+ },
+ {
+  "a": {
+   "id": "912",
+   "name": "Verifiable Credentials",
+   "type_code": "ST",
+   "link_note": "INSTANCE: №057 (W3C-стандарт, воплощающий принцип SSI); RELATED: №058",
+   "essence": "стандарт цифровых удостоверений с криптографической проверкой"
+  },
+  "b": {
+   "id": "58",
+   "name": "Passkeys",
+   "type_code": "TECH",
+   "essence": "аутентификация без традиционных паролей с использованием криптографических ключей"
+  },
+  "expected": "RELATED",
+  "src": "V2:912"
+ },
+ {
+  "a": {
+   "id": "913",
+   "name": "Confidential AI Inference",
+   "type_code": "TECH",
+   "link_note": "IS-A: №051 (конфиденциальные вычисления, применённые к инференсу ИИ)",
+   "essence": "выполнение ИИ-моделей в защищённых анклавах без раскрытия данных"
+  },
+  "b": {
+   "id": "51",
+   "name": "Confidential Computing",
+   "type_code": "TECH",
+   "essence": "защита данных во время вычислительной обработки"
+  },
+  "expected": "IS-A",
+  "src": "V2:913"
+ },
+ {
+  "a": {
+   "id": "914",
+   "name": "Federated Analytics",
+   "type_code": "TECH",
+   "link_note": "MEMBER-OF: №053, №591 (член семейства федеративных парадигм; аналитика ≠ обучение)",
+   "essence": "анализ распределённых данных без их централизованного сбора"
+  },
+  "b": {
+   "id": "53",
+   "name": "Federated Learning",
+   "type_code": "M",
+   "essence": "обучение моделей на распределённых данных без обязательного централизованного сбора исходных наборов"
+  },
+  "expected": "MEMBER-OF",
+  "src": "V2:914"
+ },
+ {
+  "a": {
+   "id": "914",
+   "name": "Federated Analytics",
+   "type_code": "TECH",
+   "link_note": "MEMBER-OF: №053, №591 (член семейства федеративных парадигм; аналитика ≠ обучение)",
+   "essence": "анализ распределённых данных без их централизованного сбора"
+  },
+  "b": {
+   "id": "591",
+   "name": "Federated Learning Infrastructure",
+   "type_code": "INF",
+   "essence": "инфраструктура совместного обучения без обязательной передачи исходных данных"
+  },
+  "expected": "MEMBER-OF",
+  "src": "V2:914"
+ },
+ {
+  "a": {
+   "id": "916",
+   "name": "Digital Twin Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №089, №145, №579, №620 (стандарты совместимости семейства двойников)",
+   "essence": "стандарты обмена данными между цифровыми двойниками разных производителей"
+  },
+  "b": {
+   "id": "89",
+   "name": "Digital Twins",
+   "type_code": "TECH",
+   "essence": "цифровые модели физических объектов и процессов"
+  },
+  "expected": "PART-OF",
+  "src": "V2:916"
+ },
+ {
+  "a": {
+   "id": "916",
+   "name": "Digital Twin Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №089, №145, №579, №620 (стандарты совместимости семейства двойников)",
+   "essence": "стандарты обмена данными между цифровыми двойниками разных производителей"
+  },
+  "b": {
+   "id": "145",
+   "name": "Digital Twin of Production",
+   "type_code": "A",
+   "essence": "цифровое моделирование производственных линий и заводских процессов"
+  },
+  "expected": "PART-OF",
+  "src": "V2:916"
+ },
+ {
+  "a": {
+   "id": "916",
+   "name": "Digital Twin Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №089, №145, №579, №620 (стандарты совместимости семейства двойников)",
+   "essence": "стандарты обмена данными между цифровыми двойниками разных производителей"
+  },
+  "b": {
+   "id": "579",
+   "name": "Urban Digital Twins",
+   "type_code": "A",
+   "essence": "цифровое моделирование городской территории и её процессов"
+  },
+  "expected": "PART-OF",
+  "src": "V2:916"
+ },
+ {
+  "a": {
+   "id": "916",
+   "name": "Digital Twin Interoperability",
+   "type_code": "ST",
+   "link_note": "PART-OF: №089, №145, №579, №620 (стандарты совместимости семейства двойников)",
+   "essence": "стандарты обмена данными между цифровыми двойниками разных производителей"
+  },
+  "b": {
+   "id": "620",
+   "name": "Cognitive Digital Twins",
+   "type_code": "EXP",
+   "essence": "экспериментальные вычислительные модели индивидуальных когнитивных процессов"
+  },
+  "expected": "PART-OF",
+  "src": "V2:916"
+ },
+ {
+  "a": {
+   "id": "918",
+   "name": "Runtime Verification",
+   "type_code": "TECH",
+   "link_note": "SAME: №915 — точное совпадение сущности",
+   "essence": "проверка выполнения свойств системы во время исполнения"
+  },
+  "b": {
+   "id": "915",
+   "name": "Runtime Verification",
+   "type_code": "A",
+   "essence": "проверка заданных свойств непосредственно во время исполнения системы"
+  },
+  "expected": "SAME",
+  "src": "V2:918"
+ },
+ {
+  "a": {
+   "id": "919",
+   "name": "Explainable AI (XAI) Standards",
+   "type_code": "ST",
+   "link_note": "METHOD-OF: №1012 (формализованные методы объяснимости)",
+   "essence": "формализованные требования к объяснимости решений ИИ"
+  },
+  "b": {
+   "id": "1012",
+   "name": "Explainable AI",
+   "type_code": "M",
+   "essence": "Критическое расширение домена A по обзорам 2025–2026"
+  },
+  "expected": "METHOD-OF",
+  "src": "V2:919"
+ },
+ {
+  "a": {
+   "id": "920",
+   "name": "AI Incident Reporting Systems",
+   "type_code": "INF",
+   "link_note": "RELATED: №071 (система отчётности об инцидентах ≠ автоматизация реагирования)",
+   "essence": "системы сбора и анализа инцидентов с ИИ для обучения отрасли"
+  },
+  "b": {
+   "id": "71",
+   "name": "Incident Response Automation",
+   "type_code": "P",
+   "essence": "автоматизация обнаружения, классификации и обработки инцидентов"
+  },
+  "expected": "RELATED",
+  "src": "V2:920"
+ },
+ {
+  "a": {
+   "id": "921",
+   "name": "Data Cooperative",
+   "type_code": "ORG",
+   "link_note": "IS-A: №205 (кооперативная модель владения данными)",
+   "essence": "кооперативы по совместному управлению данными"
+  },
+  "b": {
+   "id": "205",
+   "name": "Platform Cooperativism",
+   "type_code": "ORG",
+   "essence": "кооперативное владение цифровыми платформами их участниками"
+  },
+  "expected": "IS-A",
+  "src": "V2:921"
+ },
+ {
+  "a": {
+   "id": "922",
+   "name": "Data Trust",
+   "type_code": "ORG",
+   "link_note": "COMPLEMENTARY: №921 (траст и кооператив — дополняющие модели доверия данных)",
+   "essence": "доверительное управление данными в интересах их владельцев"
+  },
+  "b": {
+   "id": "921",
+   "name": "Data Cooperative",
+   "type_code": "ORG",
+   "link_note": "кооперативы по совместному управлению данными",
+   "essence": "кооперативы по совместному управлению данными"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "V2:922"
+ },
+ {
+  "a": {
+   "id": "935",
+   "name": "Mechanistic Interpretability",
+   "type_code": "H/M",
+   "link_note": "SAME: №1011 — точное совпадение сущности",
+   "essence": "понимание внутренних механизмов нейронных сетей"
+  },
+  "b": {
+   "id": "1011",
+   "name": "Mechanistic Interpretability",
+   "type_code": "M",
+   "essence": "Критическое расширение домена A по обзорам 2025–2026"
+  },
+  "expected": "SAME",
+  "src": "V2:935"
+ },
+ {
+  "a": {
+   "id": "941",
+   "name": "MLOps",
+   "type_code": "P",
+   "link_note": "SAME: №1003 — точное совпадение сущности",
+   "essence": "операционное управление жизненным циклом ML-моделей"
+  },
+  "b": {
+   "id": "1003",
+   "name": "MLOps",
+   "type_code": "P",
+   "essence": "Критическое расширение домена A по обзорам 2025–2026"
+  },
+  "expected": "SAME",
+  "src": "V2:941"
+ },
+ {
+  "a": {
+   "id": "942",
+   "name": "LLMOps",
+   "type_code": "P",
+   "link_note": "SAME: №1004 — точное совпадение сущности",
+   "essence": "операционное управление большими языковыми моделями"
+  },
+  "b": {
+   "id": "1004",
+   "name": "LLMOps",
+   "type_code": "P",
+   "essence": "Критическое расширение домена A по обзорам 2025–2026"
+  },
+  "expected": "SAME",
+  "src": "V2:942"
+ },
+ {
+  "a": {
+   "id": "943",
+   "name": "Prompt Engineering Standards",
+   "type_code": "ST",
+   "link_note": "METHOD-OF: №1010 (формализованная методология практики)",
+   "essence": "формализация практик проектирования промптов"
+  },
+  "b": {
+   "id": "1010",
+   "name": "Prompt Engineering",
+   "type_code": "P",
+   "essence": "Критическое расширение домена A по обзорам 2025–2026"
+  },
+  "expected": "METHOD-OF",
+  "src": "V2:943"
+ },
+ {
+  "a": {
+   "id": "948",
+   "name": "Synthetic Media Provenance",
+   "type_code": "P",
+   "link_note": "COMPLEMENTARY: №1041 (происхождение + детекция = две стороны проверки синтетики)",
+   "essence": "отслеживание происхождения синтетических медиа"
+  },
+  "b": {
+   "id": "1041",
+   "name": "Synthetic Media Detection",
+   "type_code": "P",
+   "essence": "Кандидат на включение, выявленный по обзорам 2025–2026 (Gartner, Deloitte, WEF, Stanford HAI, EU AI Act); описание в первоисточнике отсутствует"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "V2:948"
+ },
+ {
+  "a": {
+   "id": "950",
+   "name": "Foundation Model Evaluation Consortia",
+   "type_code": "ORG",
+   "link_note": "COMPLEMENTARY: №074 (орг-модель консорциумов ↔ методология фреймворков)",
+   "essence": "независимые консорциумы по оценке фундаментальных моделей"
+  },
+  "b": {
+   "id": "74",
+   "name": "Model Evaluation Frameworks",
+   "type_code": "M",
+   "essence": "систематическая оценка качества и ограничений моделей"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "V2:950"
+ },
+ {
+  "a": {
+   "id": "966",
+   "name": "Data Reliability Engineering",
+   "type_code": "P",
+   "link_note": "IS-A: №070 (дисциплина SRE, перенесённая на данные как объект)",
+   "essence": "инженерия надёжности данных"
+  },
+  "b": {
+   "id": "70",
+   "name": "Site Reliability Engineering",
+   "type_code": "ORG",
+   "essence": "инженерное управление надёжностью цифровых сервисов"
+  },
+  "expected": "IS-A",
+  "src": "V2:966"
+ },
+ {
+  "a": {
+   "id": "969",
+   "name": "Federated Data Governance",
+   "type_code": "ORG",
+   "link_note": "IS-A: №231 (федеративное управление, конкретизированное на данных)",
+   "essence": "управление данными в федеративных системах"
+  },
+  "b": {
+   "id": "231",
+   "name": "Federated Governance",
+   "type_code": "ORG",
+   "essence": "координация автономных организаций через общие правила и интерфейсы взаимодействия"
+  },
+  "expected": "IS-A",
+  "src": "V2:969"
+ },
+ {
+  "a": {
+   "id": "988",
+   "name": "Continuous AI Assurance",
+   "type_code": "P",
+   "link_note": "IS-A: №995 (непрерывные гарантии, конкретизированные на ИИ-системах)",
+   "essence": "непрерывное обеспечение гарантий для ИИ"
+  },
+  "b": {
+   "id": "995",
+   "name": "AI Workforce Transition Programs",
+   "type_code": "ORG",
+   "link_note": "программы переподготовки для работников, затронутых автоматизацией",
+   "essence": "программы переподготовки для работников, затронутых автоматизацией"
+  },
+  "expected": "IS-A",
+  "src": "V2:988"
+ },
+ {
+  "a": {
+   "id": "44",
+   "name": "Vector Databases",
+   "type_code": "TECH",
+   "essence": "поиск информации по семантической близости векторов",
+   "link_note": "TOOL-OF: 047 — инструмент vs метод, по правилам не сливать"
+  },
+  "b": {
+   "id": "47",
+   "name": "Semantic Search",
+   "type_code": "M",
+   "essence": "поиск по смыслу, а не только по совпадению слов"
+  },
+  "expected": "TOOL-OF",
+  "src": "Реестр:44"
+ },
+ {
+  "a": {
+   "id": "46",
+   "name": "GraphRAG",
+   "type_code": "M",
+   "essence": "использование графов знаний для контекстного поиска и генерации",
+   "link_note": "IS-A: 045 — частный случай семейства RAG"
+  },
+  "b": {
+   "id": "45",
+   "name": "Retrieval-Augmented Generation",
+   "type_code": "M",
+   "essence": "дополнение генеративных моделей извлечёнными источниками"
+  },
+  "expected": "IS-A",
+  "src": "Реестр:46"
+ },
+ {
+  "a": {
+   "id": "28",
+   "name": "Software Supply Chain Security",
+   "type_code": "P",
+   "essence": "контроль безопасности зависимостей, компонентов и цепочки поставки ПО",
+   "link_note": "COMPLEMENTARY: 029 — защита цепочки поставок и её манифест дополняют друг друга"
+  },
+  "b": {
+   "id": "29",
+   "name": "Software Bill of Materials",
+   "type_code": "ST",
+   "essence": "документирование состава программных компонентов"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Реестр:28"
+ },
+ {
+  "a": {
+   "id": "36",
+   "name": "Event-Driven Architecture",
+   "type_code": "A",
+   "essence": "организация взаимодействия систем через события",
+   "link_note": "COMPLEMENTARY: 037 — событийная архитектура и CQRS усиливают друг друга"
+  },
+  "b": {
+   "id": "37",
+   "name": "CQRS",
+   "type_code": "P",
+   "essence": "разделение операций чтения и изменения данных"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Реестр:36"
+ },
+ {
+  "a": {
+   "id": "13",
+   "name": "AI for Scientific Discovery",
+   "type_code": "P",
+   "essence": "применение ИИ для поиска закономерностей и научных гипотез",
+   "link_note": "COMPLEMENTARY: 114 — SDL ставит эксперименты, 013 ищет гипотезы"
+  },
+  "b": {
+   "id": "114",
+   "name": "Self-Driving Laboratories",
+   "type_code": "EXP",
+   "essence": "лаборатории, самостоятельно выбирающие и выполняющие последовательности экспериментов"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Реестр:13"
+ },
+ {
+  "a": {
+   "id": "t1",
+   "name": "MLOps",
+   "type_code": "P",
+   "link_note": "SAME: 1003 — точное совпадение"
+  },
+  "b": {
+   "id": "t2",
+   "name": "MLOps",
+   "type_code": "M",
+   "essence": ""
+  },
+  "expected": "SAME",
+  "src": "ров: код типа различается, роль одна"
+ },
+ {
+  "a": {
+   "id": "t1c",
+   "name": "Governance",
+   "type_code": "PR",
+   "link_note": ""
+  },
+  "b": {
+   "id": "t1d",
+   "name": "Federated Governance",
+   "type_code": "M",
+   "essence": ""
+  },
+  "expected": "RELATED",
+  "src": "ров: категория×метод"
+ },
+ {
+  "a": {
+   "id": "t3",
+   "name": "Vector Databases",
+   "type_code": "TECH",
+   "link_note": "TOOL-OF: 047 — инструмент vs метод, по правилам не сливать"
+  },
+  "b": {
+   "id": "t4",
+   "name": "Semantic Search",
+   "type_code": "M",
+   "essence": ""
+  },
+  "expected": "TOOL-OF",
+  "src": "ров: свойство×инструмент"
+ },
+ {
+  "a": {
+   "id": "t5",
+   "name": "W3C Verifiable Credentials",
+   "type_code": "ST",
+   "link_note": "INSTANCE: 057 — стандарт, воплощающий принцип самосуверенной идентичности"
+  },
+  "b": {
+   "id": "t6",
+   "name": "Self-Sovereign Identity",
+   "type_code": "PR",
+   "essence": ""
+  },
+  "expected": "INSTANCE",
+  "src": "ров: экземпляр×класс"
+ }
+]

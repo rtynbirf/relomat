@@ -103,5 +103,65 @@
   },
   "expected": "IS-A",
   "src": "Эмерджентный 1151"
+ },
+ {
+  "a": {
+   "id": "1152",
+   "name": "Agent2Agent (A2A) Protocol",
+   "type_code": "PROT",
+   "link_note": "COMPLEMENTARY: №1048 — MCP соединяет агента с инструментами и данными; A2A соединяет агентов между собой: дополняющие уровни интероперабельности, не дубли; RELATED: №001 — протокол для архитектуры мультиагентных систем, протокол ≠ архитектура"
+  },
+  "b": {
+   "id": "1048",
+   "name": "Model Context Protocol (MCP)",
+   "type_code": "PROT"
+  },
+  "expected": "COMPLEMENTARY",
+  "src": "Эмерджентный 1152"
+ },
+ {
+  "a": {
+   "id": "1152",
+   "name": "Agent2Agent (A2A) Protocol",
+   "type_code": "PROT",
+   "link_note": "COMPLEMENTARY: №1048 — MCP соединяет агента с инструментами и данными; A2A соединяет агентов между собой: дополняющие уровни интероперабельности, не дубли; RELATED: №001 — протокол для архитектуры мультиагентных систем, протокол ≠ архитектура"
+  },
+  "b": {
+   "id": "1",
+   "name": "Multi-Agent Systems",
+   "type_code": "A"
+  },
+  "expected": "RELATED",
+  "src": "Эмерджентный 1152"
+ },
+ {
+  "a": {
+   "id": "1153",
+   "name": "Large Quantitative Models",
+   "type_code": "TECH",
+   "link_note": "IS-A: №1001 — разновидность больших (foundation) моделей: класс, оптимизированный под количественное рассуждение"
+  },
+  "b": {
+   "id": "1001",
+   "name": "Foundation Models",
+   "type_code": "TECH"
+  },
+  "expected": "IS-A",
+  "src": "Эмерджентный 1153"
+ },
+ {
+  "a": {
+   "id": "1154",
+   "name": "Speech Reasoning Models",
+   "type_code": "TECH",
+   "link_note": "RELATED: №376 — речевой стек (транскрипция/синтез); SRM поднимает речь от ввода/вывода к рассуждению — самостоятельная категория"
+  },
+  "b": {
+   "id": "376",
+   "name": "Speech-to-Text",
+   "type_code": "TECH"
+  },
+  "expected": "RELATED",
+  "src": "Эмерджентный 1154"
  }
 ]

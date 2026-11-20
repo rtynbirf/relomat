@@ -36,6 +36,19 @@ EMERGENT = [
      "trend": "AI Index 2026: агенты близки к человеческим бейслайнам в кибербезопасности — нужна агентная красная команда",
      "line": "IS-A: №1015 — разновидность ИИ-красной команды: многоходовые, тул-юз и identity-атаки агентов",
      "targets": [{"num": 1015, "name": "AI Red Teaming", "type_code": "P", "expected": "IS-A"}]},
+    {"id": "1152", "name": "Agent2Agent (A2A) Protocol", "type_code": "PROT",
+     "trend": "Обход трендов v1.4: открытый протокол агент-агент в производственной эксплуатации у 150+ организаций (2026)",
+     "line": "COMPLEMENTARY: №1048 — MCP соединяет агента с инструментами и данными; A2A соединяет агентов между собой: дополняющие уровни интероперабельности, не дубли; RELATED: №001 — протокол для архитектуры мультиагентных систем, протокол ≠ архитектура",
+     "targets": [{"num": 1048, "name": "Model Context Protocol (MCP)", "type_code": "PROT", "expected": "COMPLEMENTARY"}],
+     "extra_targets": [{"num": 1, "name": "Multi-Agent Systems", "type_code": "A", "expected": "RELATED"}]},
+    {"id": "1153", "name": "Large Quantitative Models", "type_code": "TECH",
+     "trend": "Gartner Top Strategic Technology Trends: LQM в «вангарде» трендов 2026–2027",
+     "line": "IS-A: №1001 — разновидность больших (foundation) моделей: класс, оптимизированный под количественное рассуждение",
+     "targets": [{"num": 1001, "name": "Foundation Models", "type_code": "TECH", "expected": "IS-A"}]},
+    {"id": "1154", "name": "Speech Reasoning Models", "type_code": "TECH",
+     "trend": "Gartner Top Strategic Technology Trends: SRM в «вангарде» трендов 2026–2027",
+     "line": "RELATED: №376 — речевой стек (транскрипция/синтез); SRM поднимает речь от ввода/вывода к рассуждению — самостоятельная категория",
+     "targets": [{"num": 376, "name": "Speech-to-Text", "type_code": "TECH", "expected": "RELATED"}]},
 ]
 
 if __name__ == "__main__":
