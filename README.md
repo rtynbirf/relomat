@@ -19,8 +19,20 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 44 | 6 | 69 | 2026-11-28 | 0 |
+| 44 | 6 | 1 | 2026-11-28 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# relomat
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/relomat"><img src="banner.png" width="100%" alt="relomat — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
+
+
 
 # relomat
 
