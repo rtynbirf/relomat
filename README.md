@@ -4,6 +4,14 @@
 
 </div>
 
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/relomat@main/repo-muse.svg" width="100%" alt="Муза relomat: мастерская КУЗНЯ ПОЛИМАТ, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <br/>
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/relomat@main/forge-divider.svg" width="62%" alt="делитель мастерской КУЗНЯ ПОЛИМАТ" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
   <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы relomat в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
@@ -11,8 +19,20 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 42 | 6 | 67 | 2026-11-28 | 0 |
+| 42 | 6 | 1 | 2026-11-28 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# relomat
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/relomat@main/.github/social-preview.png" alt="relomat" width="100%"></p>
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/relomat"><img src="banner.png" width="100%" alt="relomat — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
 
 # РЕЛОМАТ — автомат типизированных отношений
 
@@ -76,3 +96,5 @@ python emergent.py                          # эмерджентные канд�
 ## Быстрый запуск
 
 `python3 run_all.py` — сборка пар, конечный автомат, эмерджентные линии (11/11), юнит-тесты; ненулевой код при любом расхождении.
+
+<!--ФОРЖ:ПОДВАЛ-->
